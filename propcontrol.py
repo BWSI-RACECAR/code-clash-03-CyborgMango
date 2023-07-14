@@ -43,7 +43,7 @@ class Solution:
             #type center: int
             #type res: tuples of int
             #return type: float
-            oldMin=res[1]
+            oldMin=0
             oldMax=res[0]
             newMin=-1
             newMax=1
