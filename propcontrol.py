@@ -43,7 +43,7 @@ class Solution:
             #type center: int
             #type res: tuples of int
             #return type: float
-            return float((((center-res[1])*(2))/(res[0]-res[1]))-1)
+            return float((((((res[0]-res[1])/2-center)-res[1])*(2))/(res[0]-res[1]))-1)
         
         
 
