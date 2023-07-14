@@ -44,7 +44,7 @@ class Solution:
             #type res: tuples of int
             #return type: float
             oldMin=res[1]
-            oldMax=red[0]
+            oldMax=res[0]
             newMin=-1
             newMax=1
             return(((center-oldMin)*(newMax-newMin))/(oldMax-oldMin))+newMin
