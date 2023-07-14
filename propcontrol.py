@@ -43,7 +43,11 @@ class Solution:
             #type center: int
             #type res: tuples of int
             #return type: float
-            return float((((((res[0]-res[1])/2-res[1]+center)-res[1])*(2))/(res[0]-res[1]))-1)
+            oldMin=res[1]
+            oldMax=red[0]
+            newMin=-1
+            newMax=1
+            return(((center-oldMin)*(newMax-newMin))/(oldMax-oldMin))+newMin
         
         
 
